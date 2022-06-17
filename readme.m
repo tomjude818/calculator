@@ -1,12 +1,12 @@
 pipeline {
 	agent any
 	tools {
-    	maven 'my_mvn'
+    	maven 'mymaven'
 	}
 	stages {
     	stage("Checkout") {   
         	steps {               	 
-            	git url: 'https://github.com/akshu20791/calculator'          	 
+            	git url: 'https://github.com/tomjude818/calculator'          	 
            	 
         	}    
     	}
